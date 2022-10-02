@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Todo lo de la barra de navegación */
+
+.navbar {
+    background-color: rgba(53, 58, 64, 255);
+}
+
+.confBsAs {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.nav-item a {
+    color: #ffffff;
+}
+
+#navbarSupportedContent #comprarTickets {
+    color: green;
+}
+
+@media (min-width: 1024px) {
+    #navbarSupportedContent {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.navbar img {
+    height: 60px;
+    width: 60px;
+}
+
+
+/* Sección del Banner  */
+
+.textoConFondo {
+    background-image: url("img/ba1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40em;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.banner {
+    background: rgba(114, 87, 87, 0.514);
+    color: #ffffff;
+    text-align: right;
+    padding: 20px;
+}
+
+
+/* sección Oradores*/
+
+.oradores-titulo {
+    text-align: center;
+}
+
+small {
+    font-size: 0.5em;
+}
+
+#react {
+    color: #ffffff;
+}
+
+
+/* seccion Honolulu- octubre */
+
+.octubre {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#cartaoctubre {
+    padding: 15px;
+    color: #ffffff;
+    background-color: rgba(53, 58, 64, 255);
+}
+
+#cartaoctubre .card-text {
+    margin: 10px;
+    text-align: left;
+}
+
+#cartaoctubre .card-title {
+    margin: 10px;
+    text-align: left;
+}
+
+#cartaoctubre button {
+    margin-top: 10px;
+}
+
+
+/* sección Ser orador */
+
+.serOrador {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.conviertete-titulo {
+    text-align: center;
+}
+
+#charla {
+    text-decoration: underline dotted;
+}
+
+#btnverde {
+    background-color: #96c93e;
+}
+
+
+/* sección footer */
+
+footer {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: rgba(28, 57, 71, 255);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+li {
+    padding: 10px;
+}
+
+@media (max-width:425px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        background-color: rgba(28, 57, 71, 255);
+        color: #ffffff;
+        align-items: center;
+        padding: 10px;
+    }
+}

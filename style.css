@@ -154,3 +154,35 @@ li {
         padding: 10px;
     }
 }
+
+#tickets {
+    margin-top: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.carteles {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card {
+    margin: 5px;
+    text-align: center;
+}
+
+.botonesform {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botonesform button {
+    flex: auto;
+    margin: 0.5rem;
+}
+
+.tituloform {
+    text-align: left;
+}

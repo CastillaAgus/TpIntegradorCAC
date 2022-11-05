@@ -155,7 +155,12 @@ li {
     }
 }
 
+.text-muted {
+    font-size: 12px;
+}
+
 #tickets {
+    width: 75%;
     margin-top: 20px;
     justify-content: center;
     align-content: center;
@@ -185,4 +190,8 @@ li {
 
 .tituloform {
     text-align: left;
+}
+
+.alert {
+    width: 96%;
 }

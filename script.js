@@ -1,7 +1,7 @@
 const btnResumen = document.getElementById("btnResumen");
 const cantEntradas = document.getElementById("cantEntradas");
 const pTotalPago = document.getElementById("pTotalPago");
-const categoria = document.getElementById("categoria").value;
+const categoria = document.getElementById("categoria");
 const btnBorrar = document.getElementById("btnBorrar");
 let entrada = 200;
 let total;
@@ -13,12 +13,12 @@ let descTrainee = 0.5;
 
 
 function pagoTotal() {
-    if (categoria == "Estudiante") {
-        total = (entrada * descEstudiante) * cantEntradas.value;
-    } else if (categoria == "Junior") {
-        total = (entrada * descJunior) * cantEntradas.value;
-    } else if (categoria == "Trainee") {
-        total = (entrada * descTrainee) * cantEntradas.value;
+    if (categoria.value == "3") {
+        total = (entrada - (entrada * descEstudiante)) * cantEntradas.value;
+    } else if (categoria.value == "2") {
+        total = (entrada - (entrada * descJunior)) * cantEntradas.value;
+    } else if (categoria.value == "1") {
+        total = (entrada - (entrada * descTrainee)) * cantEntradas.value;
     } else {
         total = entrada * cantEntradas.value;
     }
